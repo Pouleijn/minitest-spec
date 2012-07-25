@@ -4,8 +4,8 @@ require File.expand_path('../lib/minitest-spec/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Michel Pouleijn"]
   gem.email         = ["michel@pouleijn.nl"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Add rspec behaviour to minitest}
+  gem.summary       = %q{}
   gem.homepage      = "https://github.com/Pouleijn/minitest-spec"
 
   gem.files         = `git ls-files`.split($\)
