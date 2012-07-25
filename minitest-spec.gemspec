@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Minitest::Spec::VERSION
   
   gem.add_dependency("minitest", ">= 3.0")
+  gem.add_dependency("rake")
 end
