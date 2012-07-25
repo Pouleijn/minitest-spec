@@ -13,8 +13,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "minitest-spec"
   gem.require_paths = ["lib"]
-  gem.version       = Minitest::Spec::VERSION
+  gem.version       = MinitestSpec::VERSION
   
   gem.add_dependency("minitest", ">= 3.0")
-  gem.add_dependency("rake")
+  gem.add_development_dependency("rake", ">= 0.9.2")
 end

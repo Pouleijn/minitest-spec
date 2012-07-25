@@ -18,3 +18,9 @@ class MiniTest::Spec
     end
   end
 end
+
+module MinitestSpec
+  
+end
+
+
