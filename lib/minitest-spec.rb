@@ -1,5 +1,5 @@
 require "minitest-spec/version"
-require "minitest-spec/shared_examples"
+require "minitest-spec/shared_example"
 
 class MiniTest::Spec
   attr_accessor :subject
